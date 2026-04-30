@@ -4,9 +4,9 @@
 
 **No Country for Old Men**
 
-一个用于调整 SIM 国家、运营商名称和号码显示的 Android 小工具。
+一个免 Root 的 Android 小工具，用于调整 SIM 国家、运营商名称和号码显示。
 
-Countryman 是一个面向个人使用的 Android SIM 显示配置工具。它不改写实体 SIM，也不依赖 Root、Magisk 或 Xposed，而是通过 Shizuku 调用系统能力，调整系统展示层读取到的：
+Countryman 是一个面向个人使用的 Android SIM 显示配置工具。它不改写实体 SIM，也不需要 Root、Magisk 或 Xposed，而是通过 Shizuku 调用系统能力，调整系统展示层读取到的：
 
 - 国家
 - 运营商
@@ -24,6 +24,7 @@ Android 16 设备需要同时安装 `Countryman Broker`。Broker 用于承接系
 
 ## 功能
 
+- 免 Root 使用
 - 支持双卡设备分别配置
 - 支持国家显示覆盖
 - 支持运营商名称覆盖
@@ -46,6 +47,7 @@ Countryman 通过 Android 系统的 SIM 订阅信息和运营商配置相关接�
 ## 使用前提
 
 - Android 8 及以上
+- 不需要 Root
 - 已安装并启用 Shizuku
 - 已开启开发者选项和 USB 调试
 - 设备本身允许当前接口路径生效
